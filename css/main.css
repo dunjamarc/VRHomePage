@@ -1,0 +1,97 @@
+body {
+	background-color: #222;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1070px;
+	margin: 0 auto;
+	position: relative;
+	padding-left: 20px;
+}
+
+video {
+	z-index: -10;
+	position: fixed;
+  	width: auto;
+  	height: auto;
+  	min-width: 100%;
+  	top: 50%; left: 50%;
+  	transform: translate(-50%, -50%);
+  	display: none;
+}
+
+video.active {
+	display: block;
+}
+
+h1 {
+	color: #CECECE;
+	font-size: 65px;
+	font-weight: 400;
+}
+
+h1 span {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	white-space: pre;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #4e4e4e;
+	font-size: 50px;
+	font-weight: 300;
+	width: 250px;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.we {
+	display: inline-block;
+	margin-top: 220px;
+}
+
+.about {
+	color: #fff;
+	background-color: rgba(0, 0, 0, .5);
+	width: 450px;
+	padding: 15px;
+	line-height: 1.5;
+	display: none;
+	margin: 0;
+}
+
+.about.active, .you {
+	display: inline-block;
+}
+
+.like {
+	display: none;
+	width: 400px;
+	color: #fff;
+}
+
+ul {
+	color: #CECECE;
+	list-style-type: none;
+	float: right;
+}
+
+ul li {
+	display: inline;
+	margin: 10px;
+}
+
+.mail {
+	text-decoration: none;
+	color: #CECECE;
+}
+
+.mail:hover, h2:hover {
+	color: #fff;
+	cursor: pointer;
+}
